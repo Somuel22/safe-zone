@@ -3,4 +3,70 @@
 
 *{
      font-family: "Work Sans", serif;
+     text-decoration: none;
 }
+
+body{
+    max-width:100%;
+    margin: 0;
+    padding: 0;
+}
+/* header style */
+header{
+    background: rgba(255,144,14,0.10);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+nav .logo{
+    font-size: 45px;
+    font-weight: 700;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    
+}
+button{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80px;
+}
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700px;
+    color: #131313;
+}
+.banner-content{
+    color: #424242;
+}
+
